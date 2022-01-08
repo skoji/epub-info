@@ -74,7 +74,7 @@ impl Metadata {
 mod tests {
     use super::*;
     #[test]
-    fn it_works() {
+    fn test_title() {
         let mut title_elem =
             Element::parse("<title id='foo' xml:lang='ja' dir='ltr'>タイトル</title>".as_bytes())
                 .unwrap();
